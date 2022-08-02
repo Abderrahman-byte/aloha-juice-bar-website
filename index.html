@@ -7,8 +7,45 @@
     <title>ALOHA Juice Bar</title>
     <meta name="description" content="ALOHA Juice Bar Mohammedia offers natural handcrafted juices, smoothies that are clean and always buzzing with the most energizing and nutrient-rich ingredients. ">
     <meta content="INDEX, ARCHIVE" name="robots">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./static/css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header-main">
+            <div class="header-main-container container">
+                <h1>ALOHA Juice Bar</h1>
+
+                <!-- NavBurger -->
+                <button type="button" class="nav-toggle-btn" id="nav-toggle-btn">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+
+            <div class="header-nav-bar-mobile" id="header-nav-bar-mobile">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#about-section">About</a>
+                        </li>
+                        <li>
+                            <a href="#Menu-section">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#galerie-section">Galerie</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <script src="./static/js/navbar.js"></script>
 </body>
 </html>
