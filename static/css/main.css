@@ -39,6 +39,15 @@ img {
     padding-top: .5em;
     padding-bottom: .5em;
     position: relative;
+    z-index: 40;
+    transition: all .3s ease-in-out 0s;
+}
+
+.header-main-collapse {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .header-main-container {
