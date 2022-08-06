@@ -177,10 +177,12 @@ img {
     transition: all .4s;
 }
 
-.slideshow-container .slideshow img, .slideshow-container .slideshow video {
+.slideshow-container .slideshow {
     width: 100%;
     height: 80vh;
-    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .slideshow-container .slideshow .text {
