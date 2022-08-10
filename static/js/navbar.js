@@ -19,7 +19,7 @@ navToggleBtn.addEventListener('click', toggleNav)
 window.addEventListener('scroll', () => {
     const headerHeigth = Number.parseFloat(getComputedStyle(header).height)
     
-    if (window.scrollY >= headerHeigth) header.classList.add('header-main-collapse')
+    if (window.scrollY >= headerHeigth / 2) header.classList.add('header-main-collapse')
     else header.classList.remove('header-main-collapse')
     
 })
