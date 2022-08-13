@@ -135,3 +135,43 @@
     color: var(--pr-txt);
     transition: all .3s;
 }
+
+.header-nav-bar-desktop {
+    display: none;
+}
+
+.header-nav-bar-desktop a.active {
+    pointer-events: none;
+    color: var(--sc-txt);
+}
+
+@media (min-width:900px) {
+    .nav-social-media, .header-nav-bar-mobile, .nav-toggle-btn {
+        display: none;
+    }
+
+    .header-nav-bar-desktop {
+        flex: 1;
+        max-width: 600px;
+        display: block;
+    }
+
+    .header-nav-bar-desktop nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-nav-bar-desktop nav ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: .2s;
+    }
+
+    .header-nav-bar-desktop nav ul li a:hover {
+        color: var(--sc-txt);
+    }
+}
